@@ -1,4 +1,4 @@
-FROM prefecthq/prefect:2.3.1-python3.10
+FROM prefecthq/prefect:2-python3.10
 
 WORKDIR /root/flow
 
