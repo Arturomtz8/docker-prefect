@@ -26,7 +26,7 @@ infrastructure:
   labels: {}
   name: null
   command: null
-  image: prefecthq/prefect:2.10.2-python3.9
+  image: prefecthq/prefect:2.10.0-python3.9
   image_pull_policy: null
   image_registry: null
   networks: []
@@ -75,4 +75,4 @@ parameter_openapi_schema:
       type: integer
   required: null
   definitions: null
-timestamp: '2023-06-16T00:50:49.935294+00:00'
+timestamp: '2023-06-16T00:56:50.058209+00:00'

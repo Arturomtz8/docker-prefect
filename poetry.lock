@@ -2399,14 +2399,14 @@ test = ["coverage", "flake8", "freezegun (==0.3.15)", "mock (>=2.0.0)", "pylint"
 
 [[package]]
 name = "prefect"
-version = "2.10.2"
+version = "2.10.0"
 description = "Workflow orchestration and management."
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "prefect-2.10.2-py3-none-any.whl", hash = "sha256:e2adc07a74fb7beb0f2441045323f2c9e19caa836281e907846859c8a4952d34"},
-    {file = "prefect-2.10.2.tar.gz", hash = "sha256:fbe281174e236b2d5fdd6f4df75fb3a4629b7f9986d1c9823a104947a481ab74"},
+    {file = "prefect-2.10.0-py3-none-any.whl", hash = "sha256:3132e8f8b8265b4adc8f4a08561dba8fb2c48067b0f9cc0194465455ccdb3b2b"},
+    {file = "prefect-2.10.0.tar.gz", hash = "sha256:d1c9ce28e2bab386daf452cfca34b16ede4e4da9c49ea72474b2eb21f25b11b7"},
 ]
 
 [package.dependencies]
@@ -3722,4 +3722,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.12.0"
-content-hash = "0419479f1186345a146552d8140e336c0d5fb922d44ebdb4e922d2eba439e075"
+content-hash = "eb6261bdf522cfe6db6f826b0422c49a399944c858bc366b764e2a11259ed11a"
