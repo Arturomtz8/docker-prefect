@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "docker-prefect"
+version = "0.1.0"
+description = ""
+authors = ["Arturomtz8 <arturo.mtz8@gmail.com>"]
+readme = "README.md"
+packages = [{include = "docker_prefect"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12.0"
+prefect = ">=2.3.2"
+datapane = "^0.16.5"
+plotly = "5.10.0"
+prefect-shell = "0.1.1"
+pytrends = "4.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
