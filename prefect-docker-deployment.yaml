@@ -43,7 +43,7 @@ infrastructure:
   block_type_slug: docker-container
   _block_type_slug: docker-container
 storage:
-  repository: https://github.com/Arturomtz8/docker-prefect.git
+  repository: https://github.com/Arturomtz8/docker-prefect
   reference: main
   access_token: null
   include_git_objects: true
@@ -75,4 +75,4 @@ parameter_openapi_schema:
       type: integer
   required: null
   definitions: null
-timestamp: '2023-06-16T00:56:50.058209+00:00'
+timestamp: '2023-06-16T01:25:34.163394+00:00'
